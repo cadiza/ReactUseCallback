@@ -10,7 +10,6 @@ type SquareProps = {
 }
 
 const Square: React.FC<SquareProps> = ({ position, isActive = false, handleChange }) => {
-  const [errorCount, setErrorCount] = useState(0);
 
   const KeyPress = useCallback((event: KeyboardEvent) => {
     if (event.repeat) return
