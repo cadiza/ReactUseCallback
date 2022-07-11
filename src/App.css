@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.board { 
+  width:570px;
+  height:570px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}
