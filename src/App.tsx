@@ -61,7 +61,7 @@ const App = () => {
         { position: 8, isActive: randomBool() },
         { position: 9, isActive: randomBool() },
       ])
-    }, 1800);
+    }, 2000);
     return () => clearTimeout(timer);
   }, []);
 
